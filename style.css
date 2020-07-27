@@ -1,0 +1,36 @@
+html, body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page-title {
+  display: flex;
+  height: 100px;
+  background-color: #CACAFC;
+  width: 100%;
+}
+
+.design-title {
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+
+.hero-conduct {
+  display: flex;
+  height: 280px;
+}
+.hero {
+  height: 100%;
+  width: 60%;
+}
+
+h1 {
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
