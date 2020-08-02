@@ -1,10 +1,7 @@
 html, body {
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
-  height: 1-100vh;
-  width: 1-100vw;
-  min-height: 100vh;
-  min-width: 100vw;
+  width: 100%;
 }
 
 .page-title {
@@ -43,7 +40,7 @@ h1 {
 .about {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .about-text {
@@ -64,7 +61,7 @@ h1 {
   height: 12%;
   border-radius: 5px;
   padding-top: 5px;
-  
+
 }
 
 .surgery-pic {
@@ -113,4 +110,16 @@ h1 {
   background-color: #CACAFC;
   padding: 10%;
   border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: navy;
+  }
 }
