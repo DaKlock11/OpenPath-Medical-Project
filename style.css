@@ -116,6 +116,89 @@ h1 {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 366px) {
+  body {
+    background-color: aqua;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .design-title {
+    font-size: 30px;
+  }
+  .about-text {
+    font-size: 90%;
+  }
+  .hero-conduct {
+    height: 60vw;
+  }
+  .learn-box {
+    font-size: 80%;
+  }
+  .details-text {
+    font-size: 75%;
+  }
+  .options {
+    font-size: 80%;
+    margin: 1.3px;
+  }
+  .bottom-options {
+    padding: 0;
+  }
+  .button {
+    font-size: 90%;
+  }
+}
+
+
+@media screen and (min-width: 368px) and (max-width: 450px) {
+  body {
+    background-color: darkolivegreen;
+  }
+  .options {
+    font-size: 90%;
+  }
+  .button {
+    height: 20%;
+    width: 20vw;
+  }
+  .details-text {
+    font-size: 90%;
+  }
+  .learn-box {
+    font-size: 80%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .about-text {
+    font-size: 98%;
+  }
+  .hero {
+    height: 92%;
+  }
+}
+
+
+@media screen and (min-width: 451px) and (max-width: 523px) {
+  body {
+    
+  }
+  .learn-box {
+    font-size: 70%;
+  }
+  .details-text {
+    font-size: 90%;
+  }
+  .options {
+    font-size: 95%;
+  }
+  .about-text {
+    font-size: 
+  }
+}
 /** From 576px to 767px
   Smaller to medium sized phones
 **/
@@ -130,7 +213,27 @@ h1 {
 **/
 @media screen and (min-width: 768px) {
   body {
-    background-color: navy;
+    background-color: lightblue;
+  }
+  
+  .hero {
+    width: 50%;
+  }
+  .about-text {
+    font-size: 150%;
+    width: 50%;
+    height: 50%;
+  }
+  .options {
+    width: 31%;
+    height: 400px;
+    font-size: 200%;
+  }
+  .details-text {
+    font-size: 200%;
+  }
+  h1 {
+    font-size: 300%;
   }
 }
 
@@ -139,7 +242,38 @@ h1 {
 **/
 @media screen and (min-width: 992px) {
   body {
-    background-color: navy;
+    background-color: lightskyblue;
+    margin-right: 0px;
+  }
+  .hero-conduct {
+    height: 120%;
+  }
+  .about-text {
+    font-size: 200%;
+  }
+  .learn-box {
+    font-size: 150%;
+  }
+  .hero {
+    width: 50%;
+  }
+  .details {
+  height: 500px;
+  }
+  .surgery-pic {
+    height: 100%;
+  }
+  .details-text {
+    font-size: 200%;
+  }
+  .bottom-options {
+    padding-bottom: 200%;
+  }
+  .options {
+    font-size: 160%;
+  }
+  h1 {
+    font-size: 300%;
   }
 }
 
@@ -148,6 +282,33 @@ h1 {
 **/
 @media screen and (min-width: 1200px) {
   body {
-    background-color: navy;
+    background-color: lightgreen;
+    height: 120%;
+    width: 100%;
+    margin: 0;
+    
+  }
+  .hero-conduct {
+    height: 200%;
+  }
+  .about-text {
+    font-size: 190%;
+  }
+  .learn-box {
+    margin-bottom: 5%;
+    margin-top: 15%;
+    font-size: 150%;
+  }
+  .about {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .bottom-options {
+    height: 100%;
+    width: 100%;
+  }
+  .options {
+    display: flex;
+    position: relative;
   }
 }
